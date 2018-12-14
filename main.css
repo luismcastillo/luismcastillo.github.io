@@ -20,8 +20,12 @@ body {
 
 h1 {
   padding: 20px 0px 10px 0px;
+  font-size: 25pt;
 }
 
+p {
+  font-size: 12pt;
+}
 /* This changes color and removes default underline in links  */
 a {
 color: #BA55D3;
@@ -42,8 +46,9 @@ portfolio entries */
 
 .portfolio-item {
   margin-top: 60px;
-  padding: 40px;
-  background-color: #f7f7f7;
+  padding: 20px;
+  align-content: center;
+  background-color: none;
 }
 
 /* The embed-container class is for iframes containing content from Vimeo. This will allow videos to resize when the window is scaled, making this site mobile-friendly! */
